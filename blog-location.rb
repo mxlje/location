@@ -38,5 +38,5 @@ get '/location.json' do
   res['weather'] = forecast_return['currently']['summary']
   res['temperature'] = forecast_return['currently']['temperature']
 
-  res.to_json
+  params[:callback] + '("' + res.to_json + '");'
 end
