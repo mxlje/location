@@ -4,6 +4,10 @@ require 'uri'
 require 'open-uri'
 require 'json'
 
+before do
+  headers "Access-Control-Allow-Origin" => "*"
+end
+
 get '/location.json' do
   content_type :json
 
