@@ -1,7 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    multi_json (1.3.7)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -9,9 +8,6 @@ GEM
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
-    sinatra-jsonp (0.4.1)
-      multi_json (~> 1.3.7)
-      sinatra (~> 1.0)
     tilt (1.4.0)
 
 PLATFORMS
@@ -19,4 +15,3 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra
-  sinatra-jsonp

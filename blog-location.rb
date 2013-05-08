@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra/jsonp'
 require 'yaml'
 require 'uri'
 require 'open-uri'
@@ -39,7 +38,6 @@ get '/location.json' do
   res['weather'] = forecast_return['currently']['summary']
   res['temperature'] = forecast_return['currently']['temperature']
 
-  # res.to_json
-  JSOP res
+  res.to_json
   # params[:callback] + '("' + res.to_json + '");';
 end
