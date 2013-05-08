@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra-jsonp'
+require 'sinatra/jsonp'
 require 'yaml'
 require 'uri'
 require 'open-uri'
