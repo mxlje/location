@@ -13,7 +13,7 @@ get '/location.json' do
 
   # load dropbox file
   from_dropbox = YAML::load(
-  	open('https://dl.dropboxusercontent.com/u/5145925/blog-meta.yml')
+  	open(ENV['DROPBOX_URL'])
   )
 
   # concatenate lat & long for call
