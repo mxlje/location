@@ -6,6 +6,7 @@ require 'json'
 
 before do
   headers "Access-Control-Allow-Origin" => "*"
+  headers "Vary" => "Accept-Encoding"
 end
 
 get '/location.json' do
