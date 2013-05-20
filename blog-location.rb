@@ -5,7 +5,7 @@ require 'open-uri'
 require 'json'
 
 before do
-  headers "Access-Control-Allow-Origin" => "maxlielje.co"
+  headers "Access-Control-Allow-Origin" => "http://maxlielje.co"
   headers "Vary" => "Accept-Encoding"
   headers "Cache-Control" => "max-age=3600"
   headers "Expires" => "access plus 2 weeks"
