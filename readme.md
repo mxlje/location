@@ -4,4 +4,4 @@ Hosted on Heroku.
 
 ## To Do
 
-* add a brain to cache the response, only ask for new weather data if location changes.
+- [ ] add a brain to cache the response, only ask for new weather data if location changes.
